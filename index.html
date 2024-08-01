@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to</title>
+    <link id='favicon' rel="shortcut icon" href="/assets/favicon-eRD1e7l-.ico" type="image/x-png">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "../build/three.module.js",
+                "three/addons/": "./jsm/"
+            }
+        }
+    </script>
+  <script type="module" crossorigin src="/assets/index-CO3HNStA.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-xeGP2J-y.css">
+</head>
+<body>
+
+    <div id="container"></div>
+    <div id="info">
+        <a href="https://fightklub.in" target="_blank" rel="noopener">fightklub.in <br></a> Web projects and VR/AR work in progress <br/>
+    </div>
+    <canvas id="matrixCanvas"></canvas>
+    <div id="controls">
+        <button onclick="playAnimation('idle')">Idle</button>
+        <button onclick="playAnimation('fireball')">Fireball</button>
+        <button onclick="playAnimation('flip')">Flip</button>
+        <button onclick="playAnimation('dance')">Dance</button>
+        <button onclick="playAnimation('gangnam')">Gangnam</button>
+        <button onclick="playAnimation('jump')">Jump</button>
+        <button onclick="playAnimation('coding')">Coding</button>
+        <button onclick="playAnimation('victory')">Victory</button>    
+    </div>
+    <div id="ct">
+        <button id="enter-vr">Enter VR</button>
+        <button id="enter-ar">Enter AR</button>
+    </div>
+    <button id="playAudioButton">Audio</button>
+    <audio id="backgroundAudio" src="glitch.mp3" loop></audio>
+
+
+</body>
+</html>
